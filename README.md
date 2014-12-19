@@ -13,17 +13,20 @@ Compiling
 normal building of out of tree modules for gnuradio
 http://gnuradio.org/redmine/projects/gnuradio/wiki/OutOfTreeModules
 
+```
 cd ./gr-rccar2/build
 cmake ../
 make
 make install
+```
 
 Installing
 ==========
 Copy the xml blocks into your chosen gnuradio-companion folder i.e:
 on my mac this is:
+```
 cp ./gr-rccar2/examples/*.xml ~/.grc_gnuradio/
-
+```
 Issues
 ======
 Probably many - key one is that signals generated are not "clean" - as in the car shudders due to commands being switched on and off.
