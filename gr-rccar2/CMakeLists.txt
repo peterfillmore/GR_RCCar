@@ -145,7 +145,7 @@ add_custom_target(uninstall
 # Add subdirectories
 ########################################################################
 add_subdirectory(include/rccar2)
-add_subdirectory(lib)
+#add_subdirectory(lib)
 add_subdirectory(swig)
 add_subdirectory(python)
 add_subdirectory(grc)
